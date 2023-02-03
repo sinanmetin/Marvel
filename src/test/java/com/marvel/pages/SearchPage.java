@@ -7,11 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.nio.file.WatchEvent;
 
-public class SearchPage {
+public class SearchPage extends BasePage {
 
-    public SearchPage(){
-        PageFactory.initElements(Driver.getDriver(),this);
-    }
+
 
     @FindBy (xpath = "//a[.='comics']")
     public WebElement comics;

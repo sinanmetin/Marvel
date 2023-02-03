@@ -1,5 +1,8 @@
 package com.marvel.step_def;
 
+import com.marvel.pages.BasePage;
+import com.marvel.pages.HomePage;
+import com.marvel.pages.SearchPage;
 import com.marvel.testBase.TestBase;
 import com.marvel.utilities.BrowserUtils;
 import com.marvel.utilities.ConfigurationReader;
@@ -13,9 +16,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
-import java.util.Optional;
 
 public class Search extends TestBase {
+
+
 
 
     @Given("The user is on home page")

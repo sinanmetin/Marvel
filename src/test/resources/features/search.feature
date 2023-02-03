@@ -1,3 +1,4 @@
+@search
 Feature: The user can be able to search movie or series by using search function
 
   Background:

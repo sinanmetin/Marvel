@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/marvel/step_def",
         dryRun = false,
-        tags = "",
+        tags = "@api",
         //"@wip and @googleSearch"
         //"@student or @admin
         //"@Regression and not @student"
